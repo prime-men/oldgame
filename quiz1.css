@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;/*中央ぞろえ*/
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+button {
+    display: inline-block; /* ボタンを表示 */
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#quiz-container {
+    display: none;
+}    
+#feedback {
+    margin-top: 10px;
+    color: green;
+}
+#score {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#result-container {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
