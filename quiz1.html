@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>素因数分解　超初級！！</title>
+    <link rel="stylesheet" href="quiz1.css">
+</head>
+<body>
+    <h1>素因数分解鍛えるよ</h1>
+    <h2>ルール</h2>
+    <p>数字が出てきたら選択肢の中からその数字の素因数分解された結果を選ぼう！</p>
+    <p>素数だったら「素数」と答えてね！</p>
+    <!--コメントアウト-->
+
+    <div id="quiz-container" style="display: none;">
+        <h2 id="question">ここに問題が表示されます</h2>
+        <div id="options"></div>
+        <p id="feedback" style="font-weight: bold;"></p>
+        <button id="next-button" style="display: none;">次の問題へ</button>
+    </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>結果発表</h2>
+        <p id="final-score"></p>
+        <p id="comment"></p>
+        <button id="restart-button">もう一度プレイする</button>
+    </div>
+
+    <p id="score" style="display: none;">スコア: 0</p>
+
+    <script type="module" src="quiz1.js"></script>
+</body>
+</html>
